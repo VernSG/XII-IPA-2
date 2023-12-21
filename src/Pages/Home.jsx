@@ -1,7 +1,7 @@
-import BoxClassIg from "./components/BoxClassIg.jsx"
-import BoxOldWeb from "./components/BoxOldWeb.jsx"
-import BoxTextAnonim from "./components/BoxTextAnonim.jsx"
-import Navbar from "./components/Navbar.jsx"
+import BoxClassIg from "../components/BoxClassIg.jsx"
+import BoxOldWeb from "../components/BoxOldWeb.jsx"
+import BoxTextAnonim from "../components/BoxTextAnonim.jsx"
+import Navbar from "../components/Navbar.jsx"
 
 const Home = () => {
 	return (
