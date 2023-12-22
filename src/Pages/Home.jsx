@@ -13,7 +13,7 @@ const Home = () => {
 					className="border-2 flex justify-between px-10 text-4xl font-bold py-2 relative"
 					id="TotalSiswa">
 					<div id="AngkaGradientBlue" className="flex items-center justify-center ">
-						XI
+						XII
 					</div>
 					<div className="">
 						<span id="AngkaGradientBlue" className="text-5xl">
