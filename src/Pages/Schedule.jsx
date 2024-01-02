@@ -31,20 +31,20 @@ const Schedule = () => {
   // Menentukan kelompok piket berdasarkan minggu saat ini
   if (currentWeek === 2 || currentWeek === 4) {
     piketGroup = [
-      ["-", "-", "-", "-"],
-      ["-", "-", "-", "-"],
-      ["-", "-", "-", "-"],
-      ["-", "-", "-", "-"],
-      ["-", "-", "-", "-"],
+      ["Adinda Putri", "Anugerah A", "Diana", "Mayong", "Yusuf", "Ainun", "Nia", "Zaskia"],
+      ["Wafiq", "Anugerah P", "Fadhlan", "Aqil", "Nabila nurul", "Nurnabila", "Saputri"],
+      ["Ali", "Arin", "Fadillah", "Dhandi", "Nadiem", "Suci"],
+      ["Amanda", "Elsa", "Faisal", "Raihan", "Naila", "Putri", "Syam"],
+      ["Anna", "Devia", "Malda", "Hanan", "Nasywa", "Reva", "Lena"],
     ];
     /* sementara tuker week - masih perbaikan */
   } else if (currentWeek === 1 || currentWeek === 3) {
     piketGroup = [
-      ["-", "-", "-", "-"],
-      ["-", "-", "-", "-"],
-      ["-", "-", "-", "-"],
-      ["-", "-", "-", "-"],
-      ["-", "-", "-"],
+      ["Adinda Putri", "Anugerah A", "Diana", "Mayong", "Yusuf", "Ainun", "Nia", "Zaskia"],
+      ["Wafiq", "Anugerah P", "Fadhlan", "Aqil", "Nabila nurul", "Nurnabila", "Saputri"],
+      ["Ali", "Arin", "Fadillah", "Dhandi", "Nadiem", "Suci"],
+      ["Amanda", "Elsa", "Faisal", "Raihan", "Naila", "Putri", "Syam"],
+      ["Anna", "Devia", "Malda", "Hanan", "Nasywa", "Reva", "Lena"],
     ];
   }
 
@@ -110,7 +110,7 @@ const Schedule = () => {
             </div>
           ))
         ) : (
-          <p className="opacity-50">Maaf Sistem Jadwal Sedang ada perbaikan</p>
+          <p className="opacity-50">Maaf Hari Ini Tidak Ada Jadwal</p>
         )}
       </div>
     </>
